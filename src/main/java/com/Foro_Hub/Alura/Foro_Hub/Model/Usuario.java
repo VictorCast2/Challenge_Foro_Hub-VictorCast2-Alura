@@ -1,5 +1,6 @@
 package com.Foro_Hub.Alura.Foro_Hub.Model;
 
+import java.io.Serial;
 import java.util.Collection;
 import java.util.List;
 import org.springframework.security.core.GrantedAuthority;
@@ -20,7 +21,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Usuario implements UserDetails {
 
+    @Serial
     private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
