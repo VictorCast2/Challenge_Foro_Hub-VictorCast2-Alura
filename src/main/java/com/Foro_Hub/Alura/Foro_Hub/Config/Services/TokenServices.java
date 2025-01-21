@@ -1,4 +1,4 @@
-package com.Foro_Hub.Alura.Foro_Hub.Services;
+package com.Foro_Hub.Alura.Foro_Hub.Config.Services;
 
 import java.time.Instant;
 import java.time.LocalDateTime;
